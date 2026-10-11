@@ -12,5 +12,5 @@
 			"path": "constreload.jar",
 			"class": "silly.constreload.ConstantReload"
 		}
-	}
+    }
 }

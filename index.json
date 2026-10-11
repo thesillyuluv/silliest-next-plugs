@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "name": "My Plugin Repository",
-  "description": "Example plugin repository from the Revenge plugin template.",
+  "name": "some goofy plugs",
+  "description": "miau mrow meow.",
   "plugins": {
     "com.example.plugin": {
       "name": "Example Plugin",
@@ -26,6 +26,25 @@
             "discord": {
               "version": "*"
             }
+          }
+        }
+      }
+    },
+    "silly.constreload": {
+      "name": "Forever Reload",
+      "description": "Do not enable this, as it will forcefully reload Discord forever, practically bricking yoir client, you fucking idiot.",
+      "author": "thesillyuluv",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://thesillyuluv.github.io/silliest-next-plugs/pool/silly.constreload@1.0.0.zip",
+          "sha256": "19f38d10eb7f59443077b7bea599b2a07bac6f2d87984ea4b849a41f2625be09",
+          "size": 622,
+          "dependencies": {
+            "revenge.api": {},
+            "discord": {}
           }
         }
       }

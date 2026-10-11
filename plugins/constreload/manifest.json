@@ -5,6 +5,9 @@
 	"description": "Do not enable this, as it will forcefully reload Discord forever, practically bricking yoir client, you fucking idiot.",
 	"author": "thesillyuluv",
 	"version": "1.0.0",
+	"dependencies": {
+        "revenge.api": "*"
+    },
 	"dist": {
 		"script": "index.js",
 		"android": {

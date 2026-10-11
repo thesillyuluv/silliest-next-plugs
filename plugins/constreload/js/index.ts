@@ -1,3 +1,5 @@
-for (let i=0; i<5; i++) {
-  revenge.discord.native.BundleUpdaterManager.reload()
-}
+export default plugin({
+  onLoad() {
+    revenge.discord.native.BundleUpdaterManager.reload()
+  }
+})

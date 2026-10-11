@@ -6,7 +6,7 @@
 	"author": "thesillyuluv",
 	"version": "1.0.0",
 	"dependencies": {
-        "revenge.api": "*"
+        "revenge.api": "*",
 		"discord": "*"
     },
 	"dist": {

@@ -30,6 +30,30 @@
         }
       }
     },
+    "mxtiy.copyuserid.patch": {
+      "name": "Fast Copy User ID",
+      "description": "Adds a 'Copy User ID' button to the message action sheet to quickly copy the message author's ID.",
+      "author": "NoReplyUI5, Silly",
+      "icon": "CopyIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://thesillyuluv.github.io/silliest-next-plugs/pool/mxtiy.copyuserid.patch@1.0.0.zip",
+          "sha256": "10ee839b6d0c23ee2d417daaf7ee24b2a65d3fb7123e890b75000e08b67d5bb2",
+          "size": 375,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
     "silly.constreload": {
       "name": "Forever Reload",
       "description": "Do not enable this, as it will forcefully reload Discord forever, practically bricking yoir client, you fucking idiot.",
